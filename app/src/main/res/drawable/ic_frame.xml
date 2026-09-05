@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="260dp" android:height="180dp"
+    android:viewportWidth="260" android:viewportHeight="180">
+    <!-- 四角括号 -->
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="3"
+        android:pathData="M6,36 L6,14 A8,8 0 0 1 14,6 L36,6" android:fillColor="#00000000"/>
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="3"
+        android:pathData="M224,6 L246,6 A8,8 0 0 1 254,14 L254,36" android:fillColor="#00000000"/>
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="3"
+        android:pathData="M254,144 L254,166 A8,8 0 0 1 246,174 L224,174" android:fillColor="#00000000"/>
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="3"
+        android:pathData="M36,174 L14,174 A8,8 0 0 1 6,166 L6,144" android:fillColor="#00000000"/>
+    <!-- 中间扫描线 -->
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="3"
+        android:pathData="M40,90 L220,90" android:fillColor="#00000000"
+        android:strokeLineCap="round"/>
+</vector>

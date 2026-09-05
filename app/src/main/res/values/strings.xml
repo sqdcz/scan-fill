@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScanFill</string>
+    <string name="process_text_label">扫描填入</string>
+    <string name="accessibility_label">ScanFill 填入服务</string>
+    <string name="accessibility_description">用于把扫描识别出的文字自动填入当前聚焦的输入框（对输入框执行全选和粘贴）。不读取、不上传任何屏幕内容。</string>
+
+    <string name="scan_title">扫描填入</string>
+    <string name="scan_hint">对准要识别的文字</string>
+    <string name="recognizing">正在识别…</string>
+    <string name="engine_mlkit">ML Kit</string>
+    <string name="engine_paddle">Paddle</string>
+    <string name="result_label">识别结果</string>
+    <string name="btn_retake">重新扫描</string>
+    <string name="btn_copy">复制</string>
+    <string name="btn_fill">填入</string>
+    <string name="btn_replace">替换选中</string>
+    <string name="copied">已复制到剪贴板</string>
+    <string name="filled">已填入输入框</string>
+    <string name="fill_fallback">自动填入不可用，已复制到剪贴板，请手动粘贴</string>
+    <string name="ocr_failed">识别失败：%1$s</string>
+    <string name="camera_permission_needed">需要相机权限才能扫描</string>
+    <string name="grant">去授权</string>
+    <string name="close">关闭</string>
+    <string name="album">相册</string>
+    <string name="flash">闪光灯</string>
+    <string name="recent_photo">最近照片</string>
+
+    <string name="notif_channel_ball">悬浮球</string>
+    <string name="notif_ball_title">ScanFill 悬浮球已开启</string>
+    <string name="notif_ball_text">点击悬浮球即可扫描文字</string>
+    <string name="notif_scan">打开扫描</string>
+    <string name="notif_settings">设置</string>
+    <string name="notif_exit">退出</string>
+
+    <string name="settings_title">设置</string>
+    <string name="cat_theme">外观与主题</string>
+    <string name="cat_theme_sub">亮暗模式、定时切换、模糊风格、强调色</string>
+    <string name="cat_ocr">识别与填入</string>
+    <string name="cat_ocr_sub">引擎选择、填入方式、无障碍服务</string>
+    <string name="cat_format">文字格式</string>
+    <string name="cat_format_sub">换行、空格等识别结果处理</string>
+    <string name="cat_ball">悬浮球</string>
+    <string name="cat_ball_sub">开关、大小、透明度、贴边隐藏</string>
+    <string name="cat_about">关于</string>
+    <string name="cat_about_sub">版本与开源致谢</string>
+
+    <string name="theme_mode">外观模式</string>
+    <string name="theme_light">亮色</string>
+    <string name="theme_dark">暗色</string>
+    <string name="theme_system">跟随系统</string>
+    <string name="theme_schedule">定时切换</string>
+    <string name="schedule_start">暗色开始</string>
+    <string name="schedule_end">暗色结束</string>
+    <string name="glass_style">模糊风格</string>
+    <string name="glass_gaussian">高斯模糊</string>
+    <string name="glass_liquid">液态玻璃</string>
+    <string name="accent_color">强调色</string>
+
+    <string name="ocr_engine">识别引擎</string>
+    <string name="ocr_fill_mode">填入方式</string>
+    <string name="fill_auto">无障碍自动填入</string>
+    <string name="fill_clipboard">复制到剪贴板</string>
+    <string name="accessibility_status">无障碍服务</string>
+    <string name="accessibility_off">未开启，自动填入不可用</string>
+    <string name="accessibility_on">已开启</string>
+    <string name="enable">开启</string>
+
+    <string name="fmt_line">换行处理</string>
+    <string name="fmt_line_keep">保留原样</string>
+    <string name="fmt_line_merge">合并为一行</string>
+    <string name="fmt_line_smart">智能段落</string>
+    <string name="fmt_space">空格处理</string>
+    <string name="fmt_space_as_is">保持原样</string>
+    <string name="fmt_space_collapse">删除多余空格</string>
+    <string name="fmt_space_cjk">中英文间加空格</string>
+    <string name="fmt_space_strip">删除所有空格</string>
+    <string name="fmt_blank">去除空行</string>
+    <string name="fmt_preview">效果预览</string>
+
+    <string name="ball_show">显示悬浮球</string>
+    <string name="ball_size">大小</string>
+    <string name="ball_alpha">透明度</string>
+    <string name="ball_hide_edge">贴边时半隐藏</string>
+    <string name="ball_overlay_perm">悬浮窗权限未授予</string>
+
+    <string name="status_card_title">使用状态</string>
+    <string name="overlay_perm">悬浮窗权限</string>
+    <string name="camera_perm">相机权限</string>
+    <string name="notif_perm">通知权限</string>
+    <string name="granted">已就绪</string>
+    <string name="not_granted">未授权</string>
+    <string name="try_scan">试一下扫描</string>
+
+    <string name="about_version">版本</string>
+    <string name="link_website">官网</string>
+    <string name="link_website_url">github.com/sqdcz</string>
+    <string name="link_github">GitHub</string>
+    <string name="link_github_url">github.com/sqdcz · 衰气的船只</string>
+    <string name="about_desc">把 iOS 键盘「扫描文本」的体验带到 Android：悬浮球一键唤起相机，本地 OCR 识别，自动全选粘贴回输入框。长按输入框选中文字也能看到「扫描填入」入口。全程离线，不上传任何内容。</string>
+    <string name="about_credits">开源致谢</string>
+    <string name="about_credits_content">ML Kit Text Recognition（Google）\nPaddleOCR / PP-OCRv4（飞桨）\npaddleocr4android（equationl）\nCameraX（Android Open Source Project）</string>
+</resources>
